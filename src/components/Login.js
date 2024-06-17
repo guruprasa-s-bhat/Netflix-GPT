@@ -40,9 +40,7 @@ const Login = () => {
           updateProfile(user, {
             displayName: name.current.value,
           })
-            .then(() => {
-              navigate("/browse");
-            })
+            .then(() => {})
             .catch((error) => {
               setErrorMessage(error.message);
             });
