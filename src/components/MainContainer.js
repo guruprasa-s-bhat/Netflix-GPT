@@ -8,7 +8,7 @@ const MainContainer = () => {
 
   if (movies === null) return;
 
-  const mainMovies = movies[3];
+  const mainMovies = movies[5];
   const { original_title, overview, id } = mainMovies;
 
   return (

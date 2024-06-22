@@ -7,7 +7,11 @@ const GPTSearchPage = () => {
   return (
     <div>
       <div className="absolute -z-10">
-        <img className="bg-gradient-to-b from-black" src={body} alt="body" />
+        <img
+          className="bg-gradient-to-bbg-gradient-to-b from-black"
+          src={body}
+          alt="body"
+        />
       </div>
       <GptSearchBar />
       <GptMovieSuggetions />
